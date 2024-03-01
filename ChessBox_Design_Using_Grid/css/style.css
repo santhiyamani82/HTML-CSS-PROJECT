@@ -1,0 +1,37 @@
+body {
+    margin: 40px;
+    display: grid;
+    justify-content: center;
+    /* background-image: url('../img/profile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+h2 {
+    text-align: center; 
+    color: purple; 
+    font-size: 30px;
+}
+.container {
+    border: 5px solid #441a03;
+    width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+}
+.white {
+    height: 100px;
+    width: 100px;
+    background-color: #b5915f;
+    font-size: 70px;
+    display: grid;
+    justify-content: center;
+}
+.black {
+    height: 100px;
+    width: 100px;
+    background-color: #441a03;
+    font-size: 70px;
+    display: grid;
+    justify-content: center;
+}
